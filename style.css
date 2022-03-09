@@ -1,0 +1,8 @@
+.navbar-container{
+  display: flex;
+  gap: 20px;
+  justify-content: end;
+}
+nav > ul > li{
+  list-style: none;
+}
