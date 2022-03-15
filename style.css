@@ -3,6 +3,24 @@
   gap: 20px;
   justify-content: end;
 }
-nav > ul > li{
+nav > ul{
   list-style: none;
+}
+.logo{
+  margin-right: auto;
+}
+.hero-container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  background-color: #1f2937;
+}
+#hero-main-text{
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+#hero-secondary-text{
+  font-size: 18px;
+  color: #E5E7EB;
 }
