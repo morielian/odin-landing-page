@@ -1,3 +1,9 @@
+html{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
 .navbar-container{
   display: flex;
   gap: 20px;
@@ -11,9 +17,13 @@ nav > ul{
 }
 .hero-container {
   display: flex;
-  gap: 20px;
+  flex-basis: 30%;
   justify-content: space-around;
   background-color: #1f2937;
+}
+#middle-section-container{
+  display: flex;
+  justify-content: space-around;
 }
 #hero-main-text{
   font-size: 48px;
