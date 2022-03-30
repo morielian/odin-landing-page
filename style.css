@@ -34,3 +34,11 @@ nav > ul{
   font-size: 18px;
   color: #E5E7EB;
 }
+h2{
+  text-align: center;
+}
+#hero-image{
+  height: auto;
+  width: 400px;
+  border-radius: 20%;
+}
