@@ -1,5 +1,7 @@
 html{
   box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
 body{
   font-family: 'Roboto', sans-serif;
@@ -8,11 +10,16 @@ body{
   display: flex;
   gap: 20px;
   justify-content: end;
+  align-items: flex-end;
+  background-color: #1f2937;
+  margin:0px
 }
 nav > ul{
   list-style: none;
 }
 .logo{
+  font-size: 24px;
+  color: #f9faf8;
   margin-right: auto;
 }
 .hero-container {
