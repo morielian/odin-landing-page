@@ -17,6 +17,10 @@ body{
 nav > ul{
   list-style: none;
 }
+.header-link{
+  font-size: 18px;
+  color:#E5E7EB
+}
 .logo{
   font-size: 24px;
   color: #f9faf8;
@@ -31,6 +35,7 @@ nav > ul{
 #middle-section-container{
   display: flex;
   justify-content: space-around;
+  height: 300px;
 }
 #hero-main-text{
   font-size: 48px;
@@ -48,4 +53,17 @@ h2{
   height: auto;
   width: 400px;
   border-radius: 20%;
+}
+.quote-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background-color: #E5E7EB;
+}
+.quote{
+  font-size: 36px;
+  font-weight:lighter;
+  font-style: italic;
+  color: #1f2937;
 }
