@@ -14,7 +14,7 @@ body{
   background-color: #1f2937;
   margin:0px
 }
-nav > ul{
+ul{
   list-style: none;
 }
 .header-link{
@@ -66,4 +66,8 @@ h2{
   font-weight:lighter;
   font-style: italic;
   color: #1f2937;
+}
+.middle-imgs{
+  width:auto;
+  height: 200px;
 }
